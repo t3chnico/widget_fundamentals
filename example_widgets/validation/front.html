@@ -1,0 +1,10 @@
+<form name="incidentForm" class="form-group">
+    <span>Name</span>
+    <input name="name" ng-model="name" required class="form-control">
+    <p ng-show="!incidentForm.name.$valid && incidentForm.name.$dirty" class="help-block">What's your name?</p>
+    <br>
+    <span>Email address</span>
+    <input name="email" ng-model="email" type="email" class="form-control">
+    <p ng-show="!incidentForm.email.$valid && incidentForm.email.$dirty" class="help-block">Email address, you know</p>
+  </form>
+  

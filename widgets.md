@@ -24,6 +24,8 @@ _class: invert
   - [Much to learn, you still have](#much-to-learn-you-still-have)
     - [Basics](#basics)
     - [Understanding of global objects in widget](#understanding-of-global-objects-in-widget)
+    - [Bootstrap grid](#bootstrap-grid)
+    - [The grid](#the-grid)
     - [Together we can ~~rule~~ create a widget](#together-we-can-srules-create-a-widget)
   - [Links to source](#links-to-source)
   - [Useful links](#useful-links)
@@ -81,6 +83,39 @@ Prerequisite to work with widgets:
 
 ---
 
+### Bootstrap grid
+
+![bg left](/widget_presentation/src/grid.jpg)
+
+ServiceNow uses the [Bootstrap](https://getbootstrap.com) library to display widgets in an ordered way
+
+---
+
+### The grid
+
+Column 1 | Column 2 | Column 3 | Column 4
+---|---|---|---
+Row 1 | Row 1 | Row 1 | Row 1 |
+...|...|...|...
+
+```html
+<div class="row">
+  <div class="col">col</div>
+  <div class="col">col</div>
+
+</div>
+<div class="row">
+  <div class="col-8">col-8</div>
+  <div class="col-4">col-4</div>
+</div>
+```
+
+---
+
+![bg](/widget_presentation/src/page_designer_columns.png)
+
+---
+
 ### Together we can ~~rule~~ create a widget
 
 **Demo**
@@ -102,3 +137,4 @@ Angular | [GitHub]()
 ## Useful links
 
 [Widget guide](https://docs.servicenow.com/bundle/orlando-servicenow-platform/page/build/service-portal/concept/widget-dev-guide.html)
+[Bootstrap grid](https://getbootstrap.com/docs/4.0/layout/grid/)
