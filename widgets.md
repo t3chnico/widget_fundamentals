@@ -48,7 +48,7 @@ Service Portal > Widgets
 
 ---
 
-![bg right](widget_sp_config.png)
+
 
 You can also find the editor with the URL:
 
