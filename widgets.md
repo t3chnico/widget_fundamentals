@@ -23,12 +23,17 @@ _class: invert
       - [Widget Editor](#widget-editor)
   - [Much to learn, you still have](#much-to-learn-you-still-have)
     - [Basics](#basics)
-      - [Let's do it](#lets-do-it)
-    - [](#)
+    - [Understanding of global objects in widget](#understanding-of-global-objects-in-widget)
+    - [Together we can ~~rule~~ create a widget](#together-we-can-srules-create-a-widget)
+  - [Hello world](#hello-world)
+  - [Update a record](#update-a-record)
+  - [Validate record at front end](#validate-record-at-front-end)
+  - [Angular directives](#angular-directives)
   - [Useful links](#useful-links)
 
 ---
 
+<!-- _class: invert -->
 ## Fantastic widgets and where to find them
 
 ---
@@ -43,7 +48,7 @@ Service Portal > Widgets
 
 ---
 
-![bg left](widget_sp_config.png)
+![bg right](widget_sp_config.png)
 
 You can also find the editor with the URL:
 
@@ -51,6 +56,7 @@ You can also find the editor with the URL:
 
 ---
 
+<!-- _class: invert -->
 ## Much to learn, you still have
 
 > Fear is the path to the dark side. Fear leads to anger. Anger leads to hate. 
@@ -72,11 +78,41 @@ Prerequisite to work with widgets:
 
 ---
 
-#### Let's do it
+### Understanding of global objects in widget
 
-### 
+![client_server](/widget_presentation/Server-ClientGlobalScripts.png)
 
---- 
+---
+
+### Together we can ~~rule~~ create a widget
+
+**Demo**
+
+---
+
+## Hello world
+
+HTML | Client | Server
+---|---|---
+```html
+<h1></h1>
+```
+
+
+
+---
+
+## Update a record
+
+---
+
+## Validate record at front end
+
+---
+
+## Angular directives
+
+---
 
 ## Useful links
 
