@@ -1,0 +1,8 @@
+<div ng-repeat="incident in data.incident">
+	<div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-primary" type="button" ng-click="c.updateIncNumber(incident)">Update!</button>
+      </span>
+      <input type="text" class="form-control" ng-model="incident.number">
+    </div>
+</div>

@@ -8,7 +8,5 @@
       myIncident.query();
       while(myIncident.next()){
           data.incident.push(myIncident.getValue('number'));
-      }
-      
-  
+      } 
   })();

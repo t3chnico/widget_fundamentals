@@ -25,10 +25,7 @@ _class: invert
     - [Basics](#basics)
     - [Understanding of global objects in widget](#understanding-of-global-objects-in-widget)
     - [Together we can ~~rule~~ create a widget](#together-we-can-srules-create-a-widget)
-  - [Hello world](#hello-world)
-  - [Update a record](#update-a-record)
-  - [Validate record at front end](#validate-record-at-front-end)
-  - [Angular directives](#angular-directives)
+  - [Links to source](#links-to-source)
   - [Useful links](#useful-links)
 
 ---
@@ -90,27 +87,15 @@ Prerequisite to work with widgets:
 
 ---
 
-## Hello world
+## Links to source
 
-HTML | Client | Server
----|---|---
-```html
-<h1></h1>
-```
-
-
-
----
-
-## Update a record
-
----
-
-## Validate record at front end
-
----
-
-## Angular directives
+Widget | Link
+---|---
+Hello World | [GitHub](https://github.com/t3chnico/widget_fundamentals/tree/master/example_widgets/hello_world)
+Update a record | [GitHub]()
+Use the grid | [GitHub]()
+Validation |[GitHub]()
+Angular | [GitHub]()
 
 ---
 
